@@ -323,7 +323,7 @@ typedef struct sh_mem_t {
 } sh_mem_t;
 
 typedef struct sh_mem_info {
-	char     filename_sh_stats[FILE_NAME_MAX_SIZE];
+	char     filename_sh_stats[PATH_MAX];
 	size_t   shmem_size;
 	int      fd_sh_stats;
 	void*    p_sh_stats;
